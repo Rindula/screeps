@@ -31,7 +31,7 @@ jobs:
       url: https://screeps.com/a/#!/room/shard1/E48S28
     steps:
       - uses: actions/checkout@v3.5.0
-      - uses: szenius/set-timezone@v1.1
+      - uses: szenius/set-timezone@v1.2
         with:
           timezoneLinux: "Europe/Berlin"
           timezoneMacos: "Europe/Berlin"
