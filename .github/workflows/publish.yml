@@ -9,7 +9,7 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3.5.0
+      - uses: actions/checkout@v3.5.2
       - uses: actions/setup-node@v3
         with:
           node-version: '12'
@@ -30,7 +30,7 @@ jobs:
       name: Game
       url: https://screeps.com/a/#!/room/shard1/E48S28
     steps:
-      - uses: actions/checkout@v3.5.0
+      - uses: actions/checkout@v3.5.2
       - uses: szenius/set-timezone@v1.2
         with:
           timezoneLinux: "Europe/Berlin"
